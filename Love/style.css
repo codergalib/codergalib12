@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.love {
+	width: 200px;
+	height: 200px;
+	transform: rotate(45deg);
+	margin: 100px auto;
+	background: red;
+}
+.love::after {
+	content: "";
+	width: 200px;
+	height: 200px;
+	background: red;
+	display: block;
+	position: absolute;
+	top: -94px;
+	left: 0px;
+	border-radius: 50%;
+}
+.love::before {
+	content: "";
+	width: 200px;
+	height: 200px;
+	background: red;
+	display: block;
+	position: absolute;
+	border-radius: 50%;
+	right: 97px;
+	top: 1px;
+}
